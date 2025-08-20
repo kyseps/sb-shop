@@ -1,0 +1,17 @@
+
+
+    .swiper-button-disabled{
+        /* display: none; */
+        opacity: 0.5;
+    }
+
+
+ .swiper-pagination-bullets{
+   display: none;
+ }
+
+ .mySwiper {
+  width: 100%; /* Make Swiper take full width */
+/* Set a height if needed */
+   /* background : purple; */
+}

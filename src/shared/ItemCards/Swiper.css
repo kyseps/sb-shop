@@ -1,0 +1,11 @@
+
+
+    .swiper-button-disabled{
+        /* display: none; */
+        opacity: 0.5;
+    }
+
+
+ .swiper-pagination-bullets{
+   display: none;
+ }

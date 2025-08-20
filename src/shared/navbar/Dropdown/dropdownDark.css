@@ -1,0 +1,195 @@
+
+
+ /* Dropdown */
+ /* ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+} */
+
+.menu-trigger-games,
+.menu-trigger-services,
+.menu-trigger-giftcard,
+.menu-trigger-gamepoint
+
+{
+      cursor: pointer;
+      font-family: 'Peyda';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19px;
+      line-height: 24px;
+      /* display: flex;
+      align-items: center;
+      text-align: center; */
+      font-feature-settings: 'salt' on;
+      text-decoration: none;
+      position: relative; /* for the underline*/
+
+  
+  } 
+
+  /* underline for baziha */
+
+  .menu-trigger-games::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: auto;
+    right: 80px;
+    top: 30px;
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+  }
+  
+.menu-trigger-games:hover::before{
+   transform: scaleX(1);
+   transform-origin: bottom right;
+    }
+  
+
+    /* underline for giftcards */
+    .menu-trigger-giftcard::before{
+      content: '';
+      position: absolute;
+      width: 40px;
+      transform: scaleX(0);
+      height: 3px;
+      bottom: 0;
+      left: auto;
+      right: 30px;
+      top: 30px;
+      background-color: blue;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+      
+    }
+    
+    .menu-trigger-giftcard:hover::before{
+     transform: scaleX(1);
+     transform-origin: bottom right;
+      }
+
+
+          /* underline for gamepoint */
+    .menu-trigger-gamepoint::before{
+      content: '';
+      position: absolute;
+      width: 40px;
+      transform: scaleX(0);
+      height: 3px;
+      bottom: 0;
+      left: auto;
+      right: -10px;
+      top: 30px;
+      background-color: blue;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+      
+    }
+    
+    .menu-trigger-gamepoint:hover::before{
+     transform: scaleX(1);
+     transform-origin: bottom right;
+      }
+    
+
+      /* underline for khadamat pardakht */
+      .menu-trigger-services::before{
+      content: '';
+      position: absolute;
+      width: 40px;
+      transform: scaleX(0);
+      height: 3px;
+      bottom: 0;
+      left: auto;
+      right: -20px;
+      top: 30px;
+      background-color: blue;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+      
+    }
+    
+    .menu-trigger-services:hover::before{
+     transform: scaleX(1);
+     transform-origin: bottom right;
+      }
+    
+  
+  .dropdown-menu{
+    padding: 10px 26px;
+    /* width: 200px; */
+    margin-top: 28px;
+    margin-right: -20px;
+
+
+    /* item-bg */
+    background: linear-gradient(0deg, #000001 0%, #0C0C42 100%);
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 15px;
+
+  }
+  
+
+  .dropdown-menu.active{
+    opacity: 1;
+    visibility : visible; 
+    transform: translateY(0);
+    transition: 500ms ease;
+  
+  }
+
+  
+  
+  .dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 500ms ease;
+  }
+  
+  
+  /* 
+  .dropdown-menu ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .dropdown-menu ul li:hover a{
+    color: rgb(212, 33, 9);
+    cursor: pointer;
+  }
+  
+  .dropdown-menu ul li:hover{
+    opacity: 1;
+    cursor: pointer;
+  } */
+  
+  /* .dropdownItem{
+    display: flex;
+    margin: 10px auto;
+  } */
+  
+  
+  /* .dropdownItem img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: var(--speed);
+  } */
+  
+  /* .dropdownItem a{
+    max-width: 100px;
+    margin-left: 10px;
+    transition: var(--speed);
+  } */
+  

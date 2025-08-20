@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* svg:hover {
+    fill: green;
+  } */
+
+
+   
+  /* const location = useLocation(); */
+  /* const isMainPage = location.pathname === "/"; */
+  
+
+  
+  @font-face {
+
+    font-family: "peyda";   /* means regular */
+    src: local("PEYDA-REGULAR"),
+    url(/fonts/PEYDA-REGULAR.TTF) format('truetype');
+  }
+  
+
+  @font-face {
+
+    font-family: "medium";  
+    src: local("PEYDA-MEDIUM"),
+    url(/fonts/PEYDA-MEDIUM.TTF) format('truetype');
+  }
+  
+
+  @font-face {
+
+    font-family: "black";  
+    src: local("PEYDA-BLACK"),
+    url(/fonts/PEYDA-BLACK.TTF) format('truetype');
+  }
+
+  @font-face {
+
+    font-family: "bold";  
+    src: local("PEYDA-BOLD"),
+    url(/fonts/PEYDA-BOLD.TTF) format('truetype');
+  }
+
+
+  @font-face {
+
+    font-family: "extrabold";   
+    src: local("PEYDA-EXTRABOLD"),
+    url(/fonts/PEYDA-EXTRABOLD.TTF) format('truetype');
+  }
+
+
+  @font-face {
+
+    font-family: "extralight";   
+    src: local("PEYDA-EXTRALIGHT"),
+    url(/fonts/PEYDA-EXTRALIGHT.TTF) format('truetype');
+  }
+
+
+  @font-face {
+
+    font-family: "light";   
+    src: local("PEYDA-LIHTG"),
+    url(/fonts/PEYDA-LIHTG.TTF) format('truetype');
+  }
+
+
+  @font-face {
+
+    font-family: "semibold";   
+    src: local("PEYDA-SEMIBOLD"),
+    url(/fonts/PEYDA-SEMIBOLD.TTF) format('truetype');
+  }
+
+
+  @font-face {
+
+    font-family: "thin";   
+    src: local("PEYDA-THIN"),
+    url(/fonts/PEYDA-THIN.TTF) format('truetype');
+  }
+
+  
+
+/* body{
+  background: radial-gradient(258.19% 74.24% at 50% 12.21%, #E9F5FC 0%, rgba(203, 220, 243, 0.87) 22%, rgba(5, 52, 186, 0) 100%), radial-gradient(63.78% 39.75% at 50% 18.41%, #0534BA 0%, rgba(5, 52, 186, 0) 100%), radial-gradient(100% 100% at 50% 0%, #0534BA 0%, rgba(5, 52, 186, 0) 100%)black;
+  background-repeat: no-repeat;
+}  */
+
+body{
+
+ background: radial-gradient(93.04% 100% at 100% 0%, #88B7F9 0%, #3865E4 22%, rgba(0, 0, 1, 0) 100%), radial-gradient(93.04% 100% at 0% 0%, #88B7F9 0%, #3865E4 22%, rgba(0, 0, 1, 0) 100%)black;
+background-repeat: no-repeat; 
+
+max-height: 1552px; /* Extends background height beyond the viewport */
+background-size: cover;
+margin: 0;
+/* height: 1552px; */
+}
