@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import ItemCards from "./ItemCards"
-import ReactPaginate from "react-paginate"
+// import ReactPaginate from "react-paginate"
 import { useEffect, useRef, useState } from "react"
 import "./PaginationCss.css"
 import axios from "axios"
@@ -11,9 +11,9 @@ interface Product {
   [key: string]: string | number | boolean | unknown;
 }
 
-interface PageChangeEvent {
-  selected: number;
-}
+// interface PageChangeEvent {
+//   selected: number;
+// }
 
 const StyledProductLists  = styled.section`
 

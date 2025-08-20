@@ -42,21 +42,21 @@ display : flex;
 align-items:center;
 justify-content: center;
 `
-const IMg = styled.img`
+// const IMg = styled.img`
 
-width : 186px;
-height : 152px;
+// width : 186px;
+// height : 152px;
 
-  object-fit: cover;
-  /*object-fit: contain;
-  object-fit: scale-down;
-  object-position: -10% 0;
-  object-fit: none;
-  object-fit: fill;*/max-width: 100%;
-  max-height: 100%;
-border-radius: 7px;
+//   object-fit: cover;
+//   /*object-fit: contain;
+//   object-fit: scale-down;
+//   object-position: -10% 0;
+//   object-fit: none;
+//   object-fit: fill;*/max-width: 100%;
+//   max-height: 100%;
+// border-radius: 7px;
 
-`
+// `
 
 const Text = styled.p`
 font-family: 'Peyda';
@@ -106,7 +106,7 @@ function ItemCards ({ DataObject }: any) {
   }
 
   // const firstImage = DataObject.image.image; // Access the first image link
-  const baseUrl = 'https://sbshop.ir/'; // Replace with your base URL
+  // const baseUrl = 'https://sbshop.ir/';
   // const relativeUrl = firstImage; // Replace with your relative image URL
   // const absoluteUrl = `${baseUrl}${relativeUrl}`;
 
